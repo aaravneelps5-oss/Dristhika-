@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Valentine’s Day Dristhika 💖</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow: hidden;
+      background: linear-gradient(180deg, #ffd1dc, #ff9acb);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 3rem;
+      text-shadow: 2px 2px 6px #ff5fa2;
+    }
+
+    p {
+      font-size: 1.4rem;
+      max-width: 600px;
+      margin: 10px auto 30px;
+    }
+
+    .photo {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      z-index: 2;
+      position: relative;
+    }
+
+    /* Floating avocados */
+    .avocado {
+      position: absolute;
+      font-size: 2.5rem;
+      animation: floatUp linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes floatUp {
+      from {
+        transform: translateY(110vh) rotate(0deg);
+      }
+      to {
+        transform: translateY(-120px) rotate(360deg);
+      }
+    }
+
+    /* Different speeds & positions */
+    .a1 { left: 10%; animation-duration: 12s; }
+    .a2 { left: 25%; animation-duration: 18s; }
+    .a3 { left: 40%; animation-duration: 15s; }
+    .a4 { left: 60%; animation-duration: 20s; }
+    .a5 { left: 75%; animation-duration: 14s; }
+    .a6 { left: 90%; animation-duration: 22s; }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Happy Valentine’s Day, Dristhika 💕</h1>
+
+  <p>
+    You are my favorite person, my safe place, and my forever Valentine.
+    I love you more than avocados love toast 🥑💖
+  </p>
+
+  <!-- Use her actual photo file -->
+  <img src="dristhika.jpg" alt="Dristhika" class="photo">
+
+  <!-- Floating avocados -->
+  <div class="avocado a1">🥑</div>
+  <div class="avocado a2">🥑</div>
+  <div class="avocado a3">🥑</div>
+  <div class="avocado a4">🥑</div>
+  <div class="avocado a5">🥑</div>
+  <div class="avocado a6">🥑</div>
+
+  <footer>
+    Forever yours 💗
+  </footer>
+
+</body>
+</html>
